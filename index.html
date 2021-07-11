@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Sign Up Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="sign-up-page">
+    <div class="heading-div">
+      <h1>Sign Up Page</h1>
+    </div>
+    <div class="inputs-div">
+      <div id="name-input-div">
+        <label for="name-field">Name:</label>
+        <input type="text" name="name" id="name-field" placeholder="Enter name" />
+        <div id="name-message" class="hidden">
+          Should contain:
+          <ul>
+            <li>No numbers</li>
+            <li>At least 3 characters</li>
+            <li>At most 30 characters</li>
+          </ul>
+        </div>
+      </div>
+      <div id="username-input-div">
+        <label for="email-field">Username:</label>
+        <input type="text" name="username" id="username-field" placeholder="Enter username" />
+        <div id="username-message" class="hidden">
+          Should contain:
+          <ul>
+            <li>No spaces</li>
+            <li>At least 1 alphabet</li>
+            <li>At least 5 characters</li>
+            <li>At most 15 characters</li>
+          </ul>
+        </div>
+      </div>
+      <div id="email-input-div">
+        <label for="email-field">Email:</label>
+        <input type="email" name="email" id="email-field" placeholder="Enter email" />
+        <div id="email-message" class="hidden">
+          Should contain:
+          <ul>
+            <li>No spaces</li>
+            <li>No special characters at the start</li>
+          </ul>
+        </div>
+      </div>
+      <div id="password-input-div">
+        <label for="pass-field">Password:</label>
+        <input type="password" name="password" id="pass-field" placeholder="Enter password" />
+        <div id="pass-message" class="hidden">
+          Should contain:
+          <ul>
+            <li>No spaces</li>
+            <li>Both digits and alphabets</li>
+            <li>At least 1 number</li>
+            <li>At least 7 characters</li>
+          </ul>
+        </div>
+      </div>
+      <div id="sign-up-div">
+        <input type="submit" id="sign-up-btn" value="Sign up" />
+      </div>
+    </div>
+    <div id="login-link-div">
+      <a id="login-link" href="login.html">Already signed up? Click here.</a>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
