@@ -1,0 +1,242 @@
+/* Body Styles */
+body {
+  background-color: #979797;
+  font-family: Consolas;
+}
+
+/* Sign Up Page Styles - Start */
+
+#sign-up-page {
+  width: 80%;
+  margin: 0 auto;
+  color: #6b93b8;
+  border: 2px solid;
+  border-radius: 4px;
+  padding: 0 10px 10px 10px;
+  background-color: #ffffff;
+}
+
+.heading-div > h1 {
+  text-align: center;
+  color: #6b93b8;
+}
+
+.inputs-div > div {
+  display: flex;
+  flex-wrap: wrap;
+  color: #6b93b8;
+  margin-bottom: 10px;
+  border: 2px solid;
+  border-radius: 4px;
+  padding: 3px;
+}
+
+.inputs-div label {
+				color: #6b93b8;
+				font-weight: bolder;
+}
+
+.inputs-div input {
+  width: 100%;
+  height: 20px;
+  font-size: 14px;
+  border: none;
+  color: #ffffff;
+  background-color: #84b5e3;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  box-sizing: border-box;
+  padding-left: 2px;
+}
+
+.inputs-div input:focus {
+  background-color: #ffffff;
+  color: #6b93b8;
+  outline-color: #6b93b8;
+}
+
+.inputs-div input::placeholder {
+  color: #ffffff;
+}
+
+.inputs-div input:focus::placeholder {
+  color: #7a7a7a;
+}
+
+.hidden {
+  display: none;
+}
+
+.message {
+  margin-top: 4px;
+  font-size: 12px;
+}
+
+.invalid::selection {
+  background-color: #ff0034;
+}
+
+ul {
+  margin: 0;
+}
+
+#sign-up-btn {
+  border-radius: 2px !important;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+#sign-up-btn:focus {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#sign-up-btn:active {
+  background-color: #82ded5;
+}
+
+#login-link-div {
+  text-align: center;
+  color: #000000;
+}
+
+a {
+  color: #6b93b8;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Sign Up Page Styles - End */
+
+/* Log In Page Styles - Start */
+
+#login-page {
+  width: 80%;
+  margin: 0 auto;
+  color: #6b93b8;
+  border: 2px solid;
+  border-radius: 4px;
+  padding: 0 10px 10px 10px;
+  background-color: #ffffff;
+}
+
+.login-page-message {
+  margin: 0;
+  color: #ff0034;
+}
+
+#login-btn {
+  border-radius: 2px !important;
+  font-weight: bolder;
+}
+
+#login-btn:focus {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#login-btn:active {
+  background-color: #82ded5;
+}
+
+#sign-up-link-div {
+  text-align: center;
+}
+
+/* Log In Page Styles - End */
+
+/* Profile Page Styles - Start */
+
+#profile-page {
+  width: 90%;
+  margin: 0 auto;
+  color: #6b93b8;
+  border: 2px solid;
+  border-radius: 4px;
+  padding: 0 10px 10px 10px;
+  background-color: #ffffff;
+}
+
+#profile-page-heading {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.user-info-div div {
+  margin-bottom: 10px;
+  border: 2px solid;
+  border-radius: 4px;
+}
+
+.attr-div div {
+  margin-bottom: 0;
+  border-radius: 0 !important;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#profile-pic-div {
+  width: 220px;
+  height: 220px;
+  border: 2px solid;
+  border-radius: 110px;
+  margin: 0 auto 10px auto;
+}
+
+#profile-pic {
+  width: 100%;
+  height: 100%;
+  border-radius: 107px;
+}
+
+.p-div {
+  background-color: #6b93b8;
+  color: #ffffff;
+  font-weight: bolder;
+  padding: 0;
+}
+
+.user-info-div h2 {
+  margin: 0;
+}
+
+.user-info-div p {
+  margin: 0;
+}
+
+button {
+				color: #ffffff;
+				background-color: #6b93b8;
+				border: 2px solid #6b93b8;
+				border-radius: 4px;
+}
+
+button:focus {
+				outline: none;
+}
+
+button:active {
+				background-color: #82ded5;
+}
+
+/* Profile Page Styles - End */
+
+/* Media Queries */
+
+@media(min-width: 400px) {
+  #sign-up-page {
+    width: 45%;
+  }
+
+  #login-page {
+    width: 45%;
+  }
+
+  #profile-page {
+    width: 45%;
+  }
+}
